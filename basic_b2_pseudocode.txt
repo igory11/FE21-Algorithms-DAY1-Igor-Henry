@@ -1,0 +1,10 @@
+OPEN INTERVAL
+
+1.computer selects a value (S)
+2. variables AL and AH takes respective values of 1 and N
+3. User inputs a guess value (G)
+4. Computer verifies the conditions:
+	if G = S, program outputs a message "that's right!"
+	otherwise, if condition G < S is not satisfied: update variable AH with this new value G and take a the half of it for the next try out as we know the AL
+	if condition G < S is not satisfied, update AH with this G value and take the median value between AL and AH.
+	continue until G = S

@@ -1,0 +1,12 @@
+CLOSED ARRAY 
+
+1. input the value N to limit the array o the right hand-side
+2. computer selects a number (S) in the given array
+3. User inputs a value G 
+4. computer applied the conditions to the guessed (G) number and compares iit with the selected (S) value:
+	if G is equal to S, then the program outputs the right number. The game is ended
+
+	if G is outside the array, the program messages: "number outside the interval. try again."
+	if condition G < S is satisfied, the program messages: " G is too small" thereby helping the user for the next guess
+	if condition G < S is not satisfied, the program messages: "G is too big" thereby helping the user for the next guess
+	
